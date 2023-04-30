@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Huddle Landing Page Solution](https://your-solution-url.com)
+- Solution URL: [Huddle Landing Page Solution](https://www.frontendmentor.io/solutions/huddle-landing-page-with-alternating-feature-blocks-Q_SwBapNkg)
 - Live Site URL: [Huddle Landing Page Live Site](https://mjspitta.github.io/Huddle_landing_page_with_alternating_feature_blocks/)
 
 ## My process
