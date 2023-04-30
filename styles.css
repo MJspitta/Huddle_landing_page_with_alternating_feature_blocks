@@ -1,0 +1,408 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 18px;
+}
+
+h1, h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+p, a, li {
+    font-family: 'Open Sans', sans-serif;
+}
+
+:hover {
+    transition: all 0.3s ease-in-out;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    background-image: url('./images/bg-hero-desktop.svg');
+    background-repeat: no-repeat;
+    background-color: hsl(180, 100%, 96%);
+}
+
+.header-head {
+    width: 90%;
+    padding-top: 3rem;
+    margin: 0 auto 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-head .button {
+    text-decoration: none;
+    color: hsl(192, 100%, 9%);
+    padding: 1rem 4rem;
+    background-color: white;
+    box-shadow: 0 0 16px hsl(208, 11%, 80%);
+    border-radius: 3rem;
+    font-weight: 700;
+}
+
+.header-head .button:hover {
+    color: hsl(208, 11%, 55%);
+}
+
+.header-body {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hb-left h1 {
+    margin-bottom: 2.5rem;
+    font-size: 2.5rem;
+    color: hsl(192, 100%, 9%);
+}
+
+.hb-left p {
+    margin-bottom: 3rem;
+    color: hsl(192, 100%, 9%);
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.hb-left .button {
+    text-decoration: none;
+    color: white;
+    background-color: hsl(322, 100%, 66%);
+    padding: 1rem 4rem;
+    border-radius: 3rem;
+    font-weight: 700;
+}
+
+.hb-left .button:hover {
+    background-color: hsl(322, 100%, 81%);
+}
+
+.hb-left {
+    width: 40%;
+}
+
+.hb-right {
+    width: 55%;
+}
+
+.hb-right img{
+    width: 100%;
+}
+
+main {
+    margin-top: 10rem;
+}
+
+section {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem 0;
+    border-radius: 1rem;
+    box-shadow: 0 0 16px hsl(208, 11%, 90%);
+}
+
+section img {
+    width: 100%;
+}
+
+.grow-together, .flowing-conversations {
+    margin-bottom: 3rem;
+}
+
+.gt-left, .fc-right, .yu-left {
+    width: 40%;
+}
+
+.gt-right, .fc-left, .yu-right {
+    width: 40%;
+}
+
+.gt-left h2, .fc-right h2, .yu-left h2 {
+    margin-bottom: 1.5rem;
+    color: hsl(192, 100%, 9%);
+}
+
+.gt-left p, .fc-right p, .yu-left p {
+    color: hsl(208, 11%, 55%);
+}
+
+.last-section {
+    width: 100%;
+    margin-top: 20rem;
+    position: relative;
+}
+
+.float-container {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    position: absolute;
+    box-shadow: 0 0 4px hsl(208, 11%, 90%);
+    border-radius: 1rem;
+    background-color: white;
+    padding: 4rem 0;
+    top: -10rem;
+    left: 25%;
+}
+
+.float-container h2 {
+    margin-bottom: 3rem;
+}
+
+.float-container .button {
+    text-decoration: none;
+    color: white;
+    background-color: hsl(322, 100%, 66%);
+    padding: 1.5rem 5rem;
+    border-radius: 3rem;
+    font-weight: 700;
+}
+
+.float-container .button:hover {
+    background-color: hsl(322, 100%, 81%);
+}
+
+footer {
+    background-color: hsl(192, 100%, 9%);
+    color: white;
+    padding-bottom: 7rem;
+    padding-top: 10rem;
+}
+
+.footer-container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.footer-body {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.column1 {
+    width: 30%;
+}
+
+.location, .phone {
+    margin-bottom: 1.5rem;
+}
+
+.contact {
+    display: flex;
+}
+
+.contact img {
+    width: 1rem;
+    height: 1rem;
+    margin: 0.3rem 1rem 0 0.8rem;
+}
+
+.contact p {
+    font-size: 1rem;
+}
+
+li {
+    list-style-type: none;
+    margin-bottom: 1.3rem;
+    margin-left: 3rem;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+}
+
+li a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.column2 {
+    width: 15%;
+}
+
+.column3 {
+    width: 15%;
+}
+
+.column4 {
+    width: 22%;
+    position: relative;
+}
+
+.social-links {
+    display: flex;
+    width: 45%;
+    justify-content: space-between;
+}
+
+.social-links i {
+    border: 2px solid white;
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.social-links i:hover {
+    border: 2px solid hsl(322, 100%, 66%);
+    color: hsl(322, 100%, 66%);
+    cursor: pointer;
+}
+
+.copyright {
+    position: absolute;
+    bottom: -2rem;
+    font-size: 0.8rem;
+}
+
+@media only screen and (max-width: 375px) {
+    body {
+        font-size: 0.8rem;
+    }
+
+    header {
+        height: auto;
+        background-image: url('./images/bg-hero-mobile.svg');
+    }
+
+    .header-head {
+        padding-top: 2rem;
+    }
+
+    .header-head img {
+        width: 30%;
+    }
+
+    .header-head .button {
+        padding: 0.3rem 1.5rem;
+    }
+
+    .header-body {
+        flex-direction: column;
+    }
+
+    .hb-left {
+        width: 100%;
+        text-align: center;
+    }
+
+    .hb-left h1 {
+        font-size: 1.5rem;
+        margin: 1.5rem 0;
+    }
+
+    .hb-right {
+        width: 100%;
+        padding-bottom: 3rem;
+        margin-top: 5rem;
+    }
+
+    main {
+        margin-top: 5rem;
+    }
+
+    section {
+        padding: 2rem;
+    }
+
+    .grow-together {
+        flex-direction: column-reverse;
+    }
+
+    .flowing-conversations {
+        flex-direction: column;
+    }
+
+    .your-users {
+        flex-direction: column-reverse;
+    }
+
+    .gt-left, .fc-right, .yu-left {
+        width: 100%;
+        text-align: center;
+        padding-top: 2.5rem;
+    }
+    
+    .gt-right, .fc-left, .yu-right {
+        width: 100%;
+    }
+
+    .float-container {
+        width: 90%;
+        top: -8rem;
+        left: 4.5%;
+        padding: 3rem 0;
+    }
+
+    .float-container h2 {
+        font-size: 1rem;
+    }
+
+    .float-container .button {
+        padding: 1rem 3rem;
+    }
+
+    footer {
+        padding-top: 8rem;
+    }
+
+    .footer-head {
+        width: 100%;
+    }
+
+    .footer-head img {
+        width: 50%;
+    }
+
+    .footer-body {
+        flex-direction: column;
+    }
+
+    .column1 {
+        width: 100%;
+    }
+
+    .column2 {
+        width: 100%;
+        margin-top: 3rem;
+    }
+
+    li {
+        margin: 0 0 1.3rem 1rem;
+    }
+
+    li a {
+        font-size: 1rem;
+    }
+
+    .column3 {
+        width: 100%;
+    }
+
+    .column4 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 3rem;
+    }
+
+    .copyright {
+        font-size: 0.7rem;
+    }
+}
